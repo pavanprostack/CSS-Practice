@@ -1,0 +1,13 @@
+body{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    line-height: 1.5;
+}
+
+h1{
+    color: brown;
+    border: 1px dashed black;
+    padding: 20px;
+    width: 50%;
+}
