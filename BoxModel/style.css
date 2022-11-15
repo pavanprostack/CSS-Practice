@@ -1,13 +1,25 @@
-body{
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aqua;
-    line-height: 1.5;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
-    color: brown;
-    border: 1px dashed black;
-    padding: 20px;
-    width: 50%;
+.container{
+    border: 10px double red;
+    font-size: 1.5rem;
+    padding: 1.5em;
+    margin: 1.5rem 2rem 2rem 4rem ;     /* Top right bottom left */
+    outline:5px solid purple;
+    outline-offset: -20px;
+}
+
+.circle{
+    margin: 2.5rem auto;                /*  it will place at middle */
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 50px;                  /*  it changes square to circle */
+    outline: 2px solid green;
+    outline-offset:0.25rem;
 }
