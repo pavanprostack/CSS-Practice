@@ -1,0 +1,31 @@
+/* Typography is the way of text is arranged and presented. */
+
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    padding: 0;
+}
+
+ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: blue;
+    /* list-style-image:url(./checkmark.jpg); */
+}
+
+ul li:nth-child(3) {
+    color:green;
+}
+
+ul ::marker{                    /*  it is used to change the ul points color */ 
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5>>";
+}
+
