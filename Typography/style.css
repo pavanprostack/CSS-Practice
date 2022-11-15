@@ -1,0 +1,19 @@
+/* Typography is the way of text is arranged and presented. */
+
+body{
+    padding: 7%;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 12rem;
+    line-height: 1.5;
+    /* letter-spacing: o.1em; */
+    word-spacing: 0.5em;
+    font-variant: initial;
+    font-weight: 700;
+}
+
+input, button{
+   font: inherit;
+}
