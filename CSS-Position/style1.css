@@ -1,0 +1,55 @@
+/* how to make disappear  */
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+header, footer{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    font-size: 3rem;
+}
+
+footer{
+    background-color: black;
+    position: sticky;
+    bottom: 0;  
+    font-size: 2rem;
+}
+
+a:visited{
+    color: white;
+}
+
+.social{
+    background-color: blue;
+    color: white;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    z-index: 1;
+    cursor: pointer;
+}
