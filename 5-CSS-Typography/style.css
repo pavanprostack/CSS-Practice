@@ -3,15 +3,15 @@
 body{
     padding: 7%;
     font-size: 2rem;
-    text-decoration: none;
+    text-decoration:none;
     text-transform: capitalize;
-    text-align: justify;
-    text-indent: 12rem;
+    text-align:justify;
+    text-indent: 12rem;   /* in paragraph 1st line will move 12rem to right side */
     line-height: 1.5;
     /* letter-spacing: o.1em; */
     word-spacing: 0.5em;
     font-variant: initial;
-    font-weight: 700;
+    font-weight: 700;   /* bold */
 }
 
 input, button{

@@ -8,7 +8,7 @@ body{
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     min-height: 100vh;
-    padding: 20px;
+    padding: 10px;
 
     display: grid;
     grid-template-columns: repeat(9, 1fr);
